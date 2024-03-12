@@ -1,0 +1,168 @@
+body
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin: 0;
+	background-color: white;
+	color: black;
+}
+
+h1
+{
+	background-color: #4169E1;
+	color: white;
+	margin-top: 0;
+	font-size: 2em;
+	padding: 1.5em 1em 0.5em 4em;
+}
+
+p
+{
+	padding-left: 2em;
+	width: 30em;
+}
+
+form
+{
+	padding-left: 2em;
+}
+
+table, th, td 
+{
+  	border: 1px solid black;
+}
+
+textarea 
+{
+  resize: none;
+}
+
+li.searchbox
+{
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-top: 0.5em;
+	color: white;	
+	border-right: 1px solid #bbb;
+}
+
+textarea.searchbox 
+{
+	padding-right: 1em;
+	padding-left: 1em;
+	resize: none;
+	height: 15px;
+	border-right: 1px solid #bbb;
+}
+
+fieldset 
+{
+	margin: lem 0;
+	padding: lem;
+	border: lpx solid #ccc;
+	background: #f8f8f8;
+}
+	
+legend 
+{
+	font-weight: bold;
+}
+
+label 
+{
+	display: block;
+}
+
+input 
+{
+	width: 200px;
+}
+
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #4169E1;
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a 
+{
+	display: block;
+	padding: 0 2em;
+	line-height: 2.1em;
+	text-align: center;
+	text-decoration: none;
+	color: #fff
+}
+
+li .first a 
+{
+	background: none;	
+}
+
+li a:hover 
+{
+	color: #333;
+}
+
+#otsikkokentta
+{
+	display: block;
+	width: 30em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#tekstikentta
+{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	display: block;
+	width: 30em;
+	height: 10em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#otsikkopaivays
+{
+	background-color: #4169E1;
+	color: white;
+	float: left;
+	padding: 4em 0em 0em 1em;
+}
+
+#sisalto
+{
+	padding-left: 1em;
+}
+
+#sivut
+{
+	padding-left: 7em;
+}
+
+#otsikot div.paivays
+{
+	font-weight: bold;
+	float: left;
+	width: 7em;
+}
+
+p.muokattu
+{
+	font-style: italic;
+}
+
+.lomakesivu
+{
+	padding: 20px;
+}

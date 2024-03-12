@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="library">
+	<xsd:complexType>
+    	<xsd:sequence>
+			<xsd:element ref = "book" maxOccurs = "unbounded"/>	    
+			<xsd:element ref = "dvd" maxOccurs = "unbounded"/>	    
+		</xsd:sequence>
+  </xsd:complexType>
+</xsd:element> 
+
+<xsd:element name = "book">
+	<xsd:complexType>
+    	<xsd:sequence>
+     		<xsd:element name = "surname" type = "xsd:string"/>
+		    <xsd:element name = "forename" type = "xsd:string"/>
+     		<xsd:element name = "bookname" type = "xsd:string"/>
+     		<xsd:element name = "pubyear" type = "xsd:integer"/>
+     		<xsd:element name = "isbn" type = "xsd:string"/>
+     		<xsd:element name = "orgname" type = "xsd:string"/>
+     		<xsd:element name = "orgyear" type = "xsd:integer"/>
+     		<xsd:element name = "other" type = "xsd:string"/>
+    	</xsd:sequence>
+   	</xsd:complexType>
+</xsd:element>
+
+<xsd:element name = "dvd">
+	<xsd:complexType>
+    	<xsd:sequence>
+     		<xsd:element name = "name" type = "xsd:string"/>
+		    <xsd:element name = "year" type = "xsd:integer"/>
+     		<xsd:element name = "orgname" type = "xsd:string"/>
+     		<xsd:element name = "barcode" type = "xsd:string"/>
+     		<xsd:element name = "director" type = "xsd:string"/>
+     		<xsd:element name = "music" type = "xsd:string"/>
+     		<xsd:element name = "other" type = "xsd:string"/>
+    	</xsd:sequence>
+   	</xsd:complexType>
+</xsd:element>
+
+</xsd:schema>
